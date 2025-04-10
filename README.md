@@ -1,0 +1,3 @@
+# Image Carousel 
+
+The Image Carousel add-on for Concrete CMS allows you to showcase images from a chosen file set in a smooth, responsive carousel format. Built as a block type, this add-on offers various customization options such as enabling navigation dots, setting the transition speed, and controlling autoplay behavior. Ideal for hero sliders, product showcases, event highlights, or any image-based presentation, the carousel ensures your content is displayed in an engaging and modern way. Easy to configure and fully responsive, the Image Carousel adds dynamic visual appeal to any section of your website.

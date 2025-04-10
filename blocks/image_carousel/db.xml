@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+        xmlns="http://www.concrete5.org/doctrine-xml/0.5"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 http://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+
+    <table name="btImageCarousel">
+        <field name="bID" type="integer">
+            <unsigned/>
+            <key/>
+        </field>
+
+        <field name="fileSetId" type="integer">
+            <unsigned/>
+        </field>
+
+        <field name="thumbnailType" type="string">
+            <default value=""/>
+        </field>
+
+        <field name="speed" type="integer">
+            <unsigned/>
+            <default value="300"/>
+        </field>
+
+        <field name="autoplaySpeed" type="integer">
+            <unsigned/>
+            <default value="300"/>
+        </field>
+
+        <field name="infinite" type="integer">
+            <unsigned/>
+            <default value="0"/>
+        </field>
+
+        <field name="dots" type="integer">
+            <unsigned/>
+            <default value="1"/>
+        </field>
+
+        <field name="autoplay" type="integer">
+            <unsigned/>
+            <default value="0"/>
+        </field>
+    </table>
+
+    <table name="btImageCarouselBreakpoints">
+        <field name="id" type="integer">
+            <unsigned/>
+            <autoincrement/>
+            <key/>
+        </field>
+
+        <field name="bID" type="integer">
+            <unsigned/>
+        </field>
+
+        <field name="breakpoint" type="integer">
+            <unsigned/>
+        </field>
+
+        <field name="slidesToShow" type="integer">
+            <unsigned/>
+        </field>
+
+        <field name="slidesToScroll" type="integer">
+            <unsigned/>
+        </field>
+    </table>
+</schema>
