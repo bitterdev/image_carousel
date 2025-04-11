@@ -9,10 +9,10 @@ use Concrete\Core\Package\Package;
 class Controller extends Package
 {
     protected string $pkgHandle = 'image_carousel';
-    protected string $pkgVersion = '1.0.4';
+    protected string $pkgVersion = '0.0.1';
     protected $appVersionRequired = '9.0.0';
     protected $pkgAutoloaderRegistries = [
-        'src/Bitter/ImageCarousel' => 'Bitter\ImageCarousel',
+        'src/Bitter/ImageCarousel' => 'Bitter\ImageCarousel'
     ];
 
     public function getPackageDescription(): string
@@ -22,7 +22,7 @@ class Controller extends Package
 
     public function getPackageName(): string
     {
-        return t('Image Carousel ');
+        return t('Image Carousel');
     }
 
     public function on_start()

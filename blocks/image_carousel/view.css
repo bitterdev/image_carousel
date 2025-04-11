@@ -1,0 +1,9 @@
+.ccm-page .slick-slider {
+    margin-left: -1rem;
+    width: calc(100% + 2rem);
+}
+
+.ccm-page .slick-slide img {
+    width: 100%;
+    padding: 1rem;
+}

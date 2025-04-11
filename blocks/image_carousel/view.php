@@ -1,13 +1,5 @@
 <?php
 
-/**
- * @project:   Bitter Theme
- *
- * @author     Fabian Bitter (fabian@bitter.de)
- * @copyright  (C) 2021 Fabian Bitter (www.bitter.de)
- * @version    X.X.X
- */
-
 defined('C5_EXECUTE') or die('Access denied');
 
 use Concrete\Core\Page\Page;
@@ -15,6 +7,7 @@ use Concrete\Core\Support\Facade\Application;
 use Concrete\Core\Utility\Service\Identifier;
 
 /** @var array $images */
+/** @var array $config */
 
 $app = Application::getFacadeApplication();
 /** @var Identifier $identifier */
@@ -37,7 +30,7 @@ $uniqueIdentifier = "ccm-image-carousel-" . $identifier->getString();
         <?php endforeach; ?>
     </div>
 
-    <!--suppress JSUnresolvedVariable -->
+    <!--suppress JSUnresolvedVariable, JSUnresolvedFunction -->
     <script type="text/javascript">
         (function ($) {
             $(document).ready(function () {

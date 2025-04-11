@@ -45,14 +45,21 @@ class Controller extends BlockController
     /** @var int */
     protected $numberFiles;
 
-    public function getBlockTypeDescription()
+    public function getBlockTypeDescription(): string
     {
         return t("Display images in a carousel.");
     }
 
-    public function getBlockTypeName()
+    public function getBlockTypeName(): string
     {
         return t("Image Carousel");
+    }
+
+    public function registerViewAssets($outputContent = '')
+    {
+        parent::registerViewAssets($outputContent);
+
+        $this->requireAsset('slick-slider');
     }
 
     public function view()
