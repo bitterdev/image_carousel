@@ -1,0 +1,5 @@
+{
+  "name": "bitter/image_carousel",
+  "type": "concrete5-package",
+  "description": "Display a selected image gallery from a file set in a customizable carousel."
+}
