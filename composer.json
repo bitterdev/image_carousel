@@ -1,5 +1,10 @@
 {
   "name": "bitter/image_carousel",
   "type": "concrete5-package",
-  "description": "Display a selected image gallery from a file set in a customizable carousel."
+  "description": "Display a selected image gallery from a file set in a customizable carousel.",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\ImageCarousel\\": "src/Bitter/ImageCarousel"
+    }
+  }
 }
