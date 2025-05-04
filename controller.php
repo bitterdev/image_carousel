@@ -9,7 +9,7 @@ use Concrete\Core\Package\Package;
 class Controller extends Package
 {
     protected string $pkgHandle = 'image_carousel';
-    protected string $pkgVersion = '0.0.1';
+    protected string $pkgVersion = '0.0.2';
     protected $appVersionRequired = '9.0.0';
     protected $pkgAutoloaderRegistries = [
         'src/Bitter/ImageCarousel' => 'Bitter\ImageCarousel'

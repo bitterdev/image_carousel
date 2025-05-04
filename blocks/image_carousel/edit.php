@@ -24,6 +24,9 @@ $form = $app->make(Form::class);
 
 /** @noinspection PhpUnhandledExceptionInspection */
 View::element("dashboard/help_blocktypes", [], "image_carousel");
+
+/** @noinspection PhpUnhandledExceptionInspection */
+View::element("dashboard/did_you_know", [], "image_carousel");
 ?>
 
 <div class="alert alert-info">
